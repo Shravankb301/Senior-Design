@@ -13,14 +13,17 @@
     }
    
    .card {
-      width: 12rem;
+ 
       margin-right: 1rem;
       margin-bottom: 1rem;
+      margin-left: 1rem; 
+      margin-top: 1rem;
       background-color: white;
       color: black;
       border-color: white;
+      padding: 2px;
     }
-    @media (max-width: 992px) {
+    @media (max-width: 1000px) {
       .card {
         width: 100%;
         margin-right: 0;
@@ -64,19 +67,32 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-    <div class="container">
-      <div class="container py-5">
+  <div class="container">
+
+        
+      <div class="container py-1">
         <h1 class="text-center mb-5">Meet the Team</h1>
         <div class="d-flex flex-wrap justify-content-center">
-          <div class="card">
+          <div class="card" style="width: 15rem;" >
+            <img src="johns.jpeg" class="card-img-top" alt="Advisor">
+            <div class="card-body">
+              <h5 class="card-title">Professor Jay Johns </h5>
+              <p class="card-text">Advisor/Sponsor</p>
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="card" style="width: 12rem;"  >
             <img src="trusha.jpeg" class="card-img-top" alt="Team Member 1">
             <div class="card-body">
-              <h5 class="card-title">Trusha Patel </h5>
+              <h5 class="card-title">Trusha Patel</h5>
               <p class="card-text">Team Leader</p>
         
             </div>
           </div>
-          <div class="card">
+          <div class="card" style="width: 12rem;">
             <img src="sarina.jpeg" class="card-img-top" alt="Team Member 2">
             <div class="card-body">
               <h5 class="card-title">Sarina Lalria</h5>
@@ -84,7 +100,7 @@
        
             </div>
           </div>
-          <div class="card">
+          <div class="card"style="width: 12rem;" >
             <img src="shravan.jpeg" class="card-img-top" alt="Team Member 3">
             <div class="card-body">
               <h5 class="card-title">Shravan Kommarabattini</h5>
@@ -92,15 +108,15 @@
             
             </div>
           </div>
-          <div class="card">
-            <img src="team-member-4.jpg" class="card-img-top" alt="Team Member 4">
+          <div class="card" style="width: 12rem;">
+            <img src="shivansh.jpeg" class="card-img-top" alt="Team Member 4">
             <div class="card-body">
               <h5 class="card-title">Shivansh Sharma</h5>
               <p class="card-text">Lead Tester</p>
           
             </div>
           </div>
-          <div class="card">
+          <div class="card" style="width: 12rem;">
             <img src="jacob.jpeg" class="card-img-top" alt="Team Member 5">
             <div class="card-body">
               <h5 class="card-title">Jacob Drew</h5>
@@ -109,19 +125,7 @@
             </div>
           </div>
         </div>
-        <div class="container py-5">
-          <h1 class="text-center mb-5">Advisor/Sponsor</h1>
-          <div class="d-flex flex-wrap justify-content-center">
-            <div class="card" style="width: 18rem;">
-              <img src="johns.jpeg" class="card-img-top" alt="Advisor/Sponsor">
-              <div class="card-body">
-                <h5 class="card-title">Professor Jay Johns  </h5>
-
-              </div>
-            </div>
-      
-            </div>
-          </div>
+        
       </div>
       
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
